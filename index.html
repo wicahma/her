@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hepbirday!</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>"
+    />
+
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FFFFF8]">
+    <div
+      class="loader fixed top-0 left-0 right-0 bottom-0 bg-[#FFFBED] flex justify-center items-center"
+    >
+      <img
+        src="./src/img/flower-transparent.svg"
+        alt="bg-flower-transparent"
+        class="w-[90vw] fixed z-[0] top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 rotate-[15deg]"
+      />
+      <div class="absolute">
+        <h1 class="text-7xl font-bold mb-2">Tunggu yaa...</h1>
+        <p class="loader-text font-medium text-3xl ml-1">0%</p>
+      </div>
+    </div>
+
+    <nav class="fixed flex top-3 left-1/2 -translate-x-1/2 gap-5 z-[1000]">
+      <ul
+        class="relative overflow-hidden flex bg-[#F8FFE2] border border-[#E1E8CB] rounded-[35px] px-10"
+      >
+        <li class="nav-1 relative z-[2] flex items-center px-2">
+          <a href="" class="font-medium">Ucapan terimakasih</a>
+        </li>
+        <li class="nav-2 relative z-[2] flex items-center px-2">
+          <a href="" class="">Tentang dia</a>
+        </li>
+        <li class="nav-3 relative z-[2] flex items-center px-2">
+          <a href="" class="">Galeri rasa</a>
+        </li>
+        <li class="nav-4 relative z-[2] flex items-center px-2">
+          <a href="" class="">Penutup</a>
+        </li>
+        <div class="bg-navbar z-[1] transition-all duration-[500ms] ease-out">
+          <div class="h-[80px] bg-[#EBFFAC] w-[500px] relative">
+            <div
+              class="w-[80px] bg-[#EBFFAC] aspect-square rounded-full absolute top-0 left-full -translate-x-1/2"
+            ></div>
+          </div>
+        </div>
+      </ul>
+      <div
+        class="cake-section bg-[#4B5137] border border-[#2E331D] hover:bg-[#F8FFE2] hover:border-[#E1E8CB] transition-all duration-[300ms] rounded-full aspect-square w-[70px] group"
+      >
+        <div
+          class="cake scale-50 group-hover:scale-100 transition-all group-hover:top-3 duration-[500ms]"
+        >
+          <div class="candle">
+            <div class="fire"></div>
+            <div class="fire"></div>
+            <div class="fire"></div>
+            <div class="fire"></div>
+            <div class="fire"></div>
+          </div>
+          <div class="cream"></div>
+          <div class="biscuit"></div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="relative z-[100]">
+      <section id="ucapan-terimakasih" class="h-screen mx-auto container pt-32">
+        <div class="flex flex-row h-[80%] flex-wrap">
+          <div class="md:w-[30vw] w-full border-b-4 border-b-black pb-7">
+            <h2 class="mb-3 font-bold text-4xl">Terimakasih!</h2>
+            <p class="">
+              Terimakasih karena telah menjadi sesseorang yang bermakna dalam
+              menemani 2 tahun ini bersamaku, membuat setiap pagi ini senantiasa
+              disinari cahaya yang indah. Denganmu, setiap detik menjadi
+              berarti, setiap momen menjadi berwarna, dan setiap hari dapat
+              terasa bermakna.
+            </p>
+          </div>
+          <div class="grow flex justify-center">
+            <div
+              id="container-card-photo"
+              class="container-card-photo relative w-[30%] h-full flex justify-center group z-[50]"
+            >
+              <img
+                src=""
+                alt="gambar-doi-1"
+                class="floating-image transition-all duration-[500ms] ease-out rounded-2xl w-[120px] aspect-[3/4] absolute bg-red-200 -translate-x-[60px] translate-y-[10px] -rotate-[18.57deg] group-hover:-translate-x-[140px] group-hover:translate-y-[40px] group-hover:-rotate-[26.21deg]"
+              />
+              <img
+                src=""
+                alt="gambar-doi-2"
+                class="floating-image transition-all duration-[500ms] ease-out rounded-2xl w-[120px] aspect-[3/4] absolute bg-green-200 -translate-x-[30px] -rotate-[6.39deg] group-hover:translate-y-[180px] group-hover:-translate-x-[10px] group-hover:-rotate-[4.26deg]"
+              />
+              <img
+                src=""
+                alt="gambar-doi-3"
+                class="floating-image transition-all duration-[500ms] ease-out rounded-2xl w-[120px] aspect-[3/4] absolute bg-sky-200 -translate-y-[5px] rotate-[2.92deg] group-hover:-translate-y-[30px] group-hover:rotate-[11.21deg]"
+              />
+              <img
+                src=""
+                alt="gambar-doi-4"
+                class="floating-image transition-all duration-[500ms] ease-out rounded-2xl w-[120px] aspect-[3/4] absolute bg-orange-200 translate-x-[30px] -translate-y-[5px] rotate-[11.24deg] group-hover:translate-x-[120px] group-hover:translate-y-[100px] group-hover:rotate-[2.04deg]"
+              />
+            </div>
+          </div>
+          <div class="h-full w-full py-10 px-5 grow">
+            <div
+              class="bg-[#FFD9F4] p-4 border border-[#E1C0D8] h-full w-full relative rounded-[40px] overflow-hidden"
+            >
+              <div class="h-[90%] overflow-hidden rounded-3xl">
+                <iframe
+                  src="https://open.spotify.com/embed/playlist/3jdEJwPl56ilueVojofOwD?utm_source=generator"
+                  width="100%"
+                  height="100%"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+              </div>
+              <img
+                src="./src/img/flower-colorful.svg"
+                alt="image flower colorful"
+                class="w-[110px] aspect-square absolute -bottom-5 right-12"
+              />
+              <h3 class="text-3xl font-semibold mt-2 ms-3">
+                memang berbeda, tetapi itu yang membuatnya istimewa.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="tentang-dia"
+        class="h-screen w-screen relative overflow-hidden"
+      >
+        <div class="w-[30vw] z-[10] absolute top-20 left-1/2 -translate-x-1/2">
+          <div
+            class="w-full overflow-hidden aspect-square bg-[#B09AAA] border-2 border-[#A3869B] rounded-full"
+          >
+            <img
+              src="./src/img/ayang.png"
+              alt="foto lilis lestari"
+              class="h-full aspect-auto mx-auto"
+            />
+          </div>
+          <div
+            id="kanan-atas"
+            class="flex absolute top-24 -right-[70%] w-[100%]"
+          >
+            <img
+              src="./src/img/panah-kananatas.svg"
+              alt="panah-vector-kanan-atas"
+              class="w-[145px] aspect-auto bottom-10 right-2 relative"
+            />
+            <p class="text-sm">
+              Pemarah, manja (kalo pas halangan), gaamau ngalah wes pokoe (kalo
+              ngga ngalah, bisa debat), keibuan banget nget ngett gaapake es,
+              masakannya certified enak, anaknya sangat mandiri, retjeh pada
+              waktunya, bisa apa aja asal dia niat belajar
+            </p>
+          </div>
+          <div
+            id="kanan-bawah"
+            class="flex absolute bottom-0 -right-[78%] w-[100%]"
+          >
+            <img
+              src="./src/img/panah-kananbawah.svg"
+              alt="panah-vector-kanan-bawah"
+              class="w-[145px] aspect-auto bottom-10 right-2 relative"
+            />
+            <p class="text-sm">
+              Makanan kesukaannya kue cubit, kue serambi, kue cincin, rissol,
+              lumpia, kue sus bazzah, INDOMIE, INDOMIE, INDOMIE, susu
+            </p>
+          </div>
+          <div
+            id="kiri-bawah"
+            class="flex absolute bottom-10 -left-[70%] w-[100%]"
+          >
+            <p class="text-sm">
+              Kaatanya gaabisa dandan tapi setiap pap cantiknya naudzubilah,
+              berdemeg kalo pake daster, kalo offline seneng nyubitin perud 🥺
+            </p>
+            <img
+              src="./src/img/panah-kiribawah.svg"
+              alt="panah-vector-kiri-bawah"
+              class="w-[145px] aspect-auto bottom-2 left-1 relative"
+            />
+          </div>
+        </div>
+        <div class="absolute top-32 -rotate-[4deg]">
+          <section id="runnable">
+            <div
+              class="wrapper running-text uppercase text-[200px] whitespace-nowrap text-nowrap"
+            >
+              lilis lastari <span class="text-black">•</span> lilis lastari
+              <span class="text-black">•</span> lilis lastari
+              <span class="text-black">•</span>
+            </div>
+          </section>
+          <section id="runnable">
+            <div
+              class="wrapper running-text uppercase text-[200px] whitespace-nowrap text-nowrap leading-[0rem]"
+            >
+              myhunniybunniyswitteyluplup
+              <span class="text-black">•</span>
+              myhunniybunniyswitteyluplup
+              <span class="text-black">•</span>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section
+        id="galeri-rasa"
+        class="h-fit mx-auto relative mt-32 space-y-10 pb-32 bg-[#FFFFF8] pt-10"
+      >
+        <img
+          src="./src/img/ungu-gradient.png"
+          alt="gradient-warna-ungu"
+          class="absolute bottom-[70%] right-full translate-y-1/2 translate-x-1/2"
+        />
+        <div class="container mx-auto mb-5">
+          <h2 class="mb-3 font-bold text-4xl text-center">Galeri Rasa</h2>
+          <p class="text-center leading-5">
+            Semua tentang ia yang selalu ada <br />
+            dan mengapresiasi developer.
+          </p>
+        </div>
+        <!-- //NOTE - Gambar 1 -->
+        <section id="runnable">
+          <div class="wrapper flex items-start gap-4">
+            <img
+              src=""
+              alt="gambar-doi-1"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-2"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-3"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-4"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-5"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+          </div>
+        </section>
+
+        <!-- //NOTE - Gambar 2 -->
+        <section id="runnable">
+          <div class="wrapper flex items-start gap-4">
+            <img
+              src=""
+              alt="gambar-doi-1"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-2"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-3"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-4"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-5"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+          </div>
+        </section>
+
+        <!-- //NOTE - Gambar 3 -->
+        <section id="runnable">
+          <div class="wrapper flex items-start gap-4">
+            <img
+              src=""
+              alt="gambar-doi-1"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-2"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-3"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-4"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-5"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+          </div>
+        </section>
+
+        <!-- //NOTE - Gambar 4 -->
+        <section id="runnable" class="relative z-[2]">
+          <div class="wrapper flex items-start gap-4">
+            <img
+              src=""
+              alt="gambar-doi-1"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-2"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-3"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-4"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+            <img
+              src=""
+              alt="gambar-doi-5"
+              class="bg-black/50 rounded-2xl w-[20vw] min-h-[500px] aspect-auto"
+            />
+          </div>
+        </section>
+
+        <section id="runnable" class="relative z-[1] bottom-5">
+          <div
+            class="wrapper running-text uppercase text-[200px] whitespace-nowrap text-nowrap leading-[0rem]"
+          >
+            memayu hayuning bawana <span class="text-black">•</span> memayu
+            hayuning bawana <span class="text-black">•</span>
+          </div>
+        </section>
+      </section>
+
+      <section id="penutup" class="h-screen relative">
+        <img
+          src="./src/img/biru-gradient.png"
+          alt="gradient-vector-biru"
+          class="absolute -top-24 left-full -translate-x-1/2 w-[40vw] aspect-auto"
+        />
+        <div
+          class="flex flex-col justify-center items-center md:w-[80%] h-full p-10 mx-auto text-center"
+        >
+          <h2 class="mb-3 font-bold text-4xl">Akhir kata.</h2>
+          <div class="space-y-3">
+            <p>
+              Terima kasih telah menjadi cahaya dalam kegelapan, terimakasih
+              telah menemani disetiap pekerjaan, terima kasih telah menjadi
+              sahabat dalam kesendirian, dan terima kasih telah hadir dalam
+              setiap detik perjalanan kita. Developer bersyukur atas setiap
+              kenangan yang kita bagi bersama, dan tak sabar untuk melanjutkan
+              petualangan ini bersamamu,
+            </p>
+            <p>
+              Selamat bertambah umur, jika bisa diibaratkan, bak subjek dalam
+              quotes jawa, “Memayu hayuning bawana”.
+            </p>
+          </div>
+
+          <img
+            src="./src/img/heart.svg"
+            alt="vector hati warna merah"
+            class="w-[100px] aspect-auto my-10"
+          />
+
+          <p>- tertanda, Teguh</p>
+          <p>untuknya, Lilis Lastari</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="absolute top-0 z-[0] grid grid-cols-2 gap-0">
+      <img
+        src="./src/img/flower-filled-reverse.svg"
+        alt="image"
+        class="w-[50vw] aspect-square"
+      />
+      <br />
+      <img
+        src="./src/img/flower-transparent.svg"
+        alt="image"
+        class="w-[50vw] aspect-square"
+      />
+      <img
+        src="./src/img/flower-filled-reverse.svg"
+        alt="image"
+        class="w-[50vw] aspect-square"
+      />
+    </div>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
